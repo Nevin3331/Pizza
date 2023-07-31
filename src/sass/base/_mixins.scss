@@ -1,0 +1,56 @@
+@mixin before_circle {
+	&::before {
+        content: '';
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background: $main-color;
+        position: absolute;
+        z-index: -1;
+        top: 20%;
+        left: -3px;
+    }
+}
+
+@mixin 	about_circle {
+    &::before {
+        content: '';
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background: $main-color;
+        position: absolute;
+        z-index: -1;
+        top: -8%;
+        left: -3px;
+    }
+}
+
+@mixin 	skills_circle {
+    &::before {
+        content: '';
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background: $main-color;
+        position: absolute;
+        z-index: -1;
+        top: -9%;
+        left: -15px;
+    }
+}
+
+@mixin 	main_circle {
+    &::before {
+        content: '';
+        width: 36px;
+        height: 36px;
+        border-radius: 100%;
+        background: $main-color;
+        position: absolute;
+        z-index: -1;
+        top: -21%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
