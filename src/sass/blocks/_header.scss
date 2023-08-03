@@ -1,0 +1,136 @@
+.header {
+    height: 700px;
+    position: relative;   
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        &_item {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 51px;
+            width: 560px;
+            list-style-type: none;
+            font-weight: 400;
+            font-size: 15px;
+            &-list {
+                margin-left: 21px;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 28px;
+                text-align: center;
+                &:hover > ul{
+                    display: initial;
+                    transition: all 5s;
+                }
+                a {
+                    color: #000000;
+                    text-decoration: none;
+                    &:hover {
+                        transition: all 0.5s;
+                        background: #000;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        &_subitem {
+            padding: 0;
+            list-style-type: none;
+            background: #fff;
+            display: none;
+            &-sublist {
+                width: 100%;
+            }
+        }
+
+        &-logo {
+            display: flex;
+            margin-top: -16px;
+            margin-left: 25px;
+        }
+    }
+
+    &__social {
+        margin-top: 51px;
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        &-btn {
+            border: none;
+            width: 80px;
+            max-height: 30px;
+        }
+    }
+
+
+
+
+
+
+
+
+    &__title {
+        position: absolute;
+        margin-top: 250px;
+        font-weight: 700;
+        font-size: 74px;
+        line-height: 84px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        position: absolute;
+        margin-top: 455px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: white;
+    }
+    &__sidebar {
+        position: fixed;
+        display: grid;
+        grid-template-columns: repeat(3, 425px);
+        height: 95px;
+        justify-items: center;
+        justify-content: center;
+        z-index: 3;
+    }
+    &_block {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.header_text {
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    top: 20px;
+    right: 30px;
+    height: 21px;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 30px;
+        height: 3px; 
+        background-color: #fff;
+    }
+    span.long {
+        width: 36px;
+    }
+}
