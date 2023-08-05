@@ -1,0 +1,18 @@
+.carousel {
+    &__title {
+        color: #000;
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+
+    &-inner {
+        margin-top: 35px;
+    }
+    &-item {
+       img {
+        height: 678px;
+        width: 100%;
+       } 
+    }
+}

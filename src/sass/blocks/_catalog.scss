@@ -1,0 +1,89 @@
+.catalog {
+    min-height: 500px;
+    &__title {
+        color: #000;
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 100px;
+    }
+    &__content {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 280px);
+        &-item {
+            width: 270px;
+            min-height: 440px;
+            border: 2px solid #e8e8e8;
+            padding: 20px 20px 26px 20px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            &-wrapper {
+                &-subtitle {
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                &-info {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 170px;
+                    &-weight {
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    &-ilprice {
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+    &__footer {
+        &-descr {
+            &-info {
+                color: #000;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        &-button {
+            display: flex;
+            width: 226px;
+            height: 53px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+            background: #EAEAEA;
+            border: none;
+            margin-top: 15px;
+
+            color: #000;
+            font-family: Inter;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
