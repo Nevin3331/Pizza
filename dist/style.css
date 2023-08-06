@@ -455,6 +455,55 @@
   background: none;
 }
 
+.addres {
+  position: relative;
+  height: 360px;
+}
+.addres__item {
+  display: grid;
+  grid-template-columns: repeat(2, 348px 767px);
+  gap: 15px;
+}
+.addres__item_descr {
+  border: 1px solid;
+  height: 300px;
+}
+.addres__item_descr-title {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.addres__item_descr-subtitle {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  width: 275px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.addres__item_descr-hour {
+  color: #000;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.addres__item_map img {
+  width: 100%;
+}
+
+.feedback {
+  height: 500px;
+  position: relative;
+}
+.feedback__title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .footer {
   background: #252B42;
 }

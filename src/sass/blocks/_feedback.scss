@@ -1,0 +1,9 @@
+.feedback {
+    height: 500px;
+    position: relative;
+    &__title {
+        color: #000;
+        font-size: 40px;
+        font-weight: 700;
+    }
+}

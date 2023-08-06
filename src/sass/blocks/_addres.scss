@@ -1,0 +1,40 @@
+.addres {
+    position: relative;
+    height: 360px;
+    &__item {
+        display: grid;
+        grid-template-columns: repeat(2, 348px 767px);
+        gap: 15px;
+        &_descr {
+            border: 1px solid;
+            height: 300px;
+            &-title {
+                color: #000;
+                font-size: 45px;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            &-subtitle {
+                color: #000;
+                font-size: 15px;
+                font-weight: 400;
+                width: 275px;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+            &-hour {
+                color: #000;
+                font-size: 17px;
+                font-weight: 400;
+                margin-left: 10px;
+                margin-top: 15px;
+            }
+        }
+        &_map {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
