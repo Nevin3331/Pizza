@@ -50,6 +50,10 @@
         line-height: 1.5;
         letter-spacing: 0.005em;
         margin-bottom: 20px;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
     }
 
     &__item-text {

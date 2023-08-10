@@ -905,6 +905,10 @@
   letter-spacing: 0.005em;
   margin-bottom: 20px;
 }
+.footer__item-title a {
+  text-decoration: none;
+  color: #fff;
+}
 .footer__item-text {
   font-size: 13px;
   font-weight: 400;
