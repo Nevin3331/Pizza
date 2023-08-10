@@ -85,6 +85,12 @@
             font-size: 22px;
             font-weight: 600;
             text-transform: uppercase;
+            &:hover {
+                background-color: #861620;
+            }
+            &:active {
+                background-color: #29070A;
+            }
         }
     }
 }

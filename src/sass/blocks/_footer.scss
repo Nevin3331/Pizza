@@ -1,10 +1,7 @@
 .footer {
-    background: #252B42;
+    background: #BC1E2D;
 
     &__inner {
-        max-width: 950px;
-        margin: auto;
-        padding: 40px 15px;
         color: #fff;
         display: flex;
 
@@ -90,9 +87,87 @@
 
     &__info {
         display: flex;
-        flex-direction: column;
-        align-items: center;       
-        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        height: 255px;
+        &_social {
+            display: flex;
+            flex-direction: column;
+            &-image { 
+                svg {
+                    margin-right: 10px;
+                }
+            }
+            &-title {
+                color: #FFF;
+                font-size: 26px;
+                font-weight: 700;
+                margin-top: -10px;
+            }
+            &-subtitle {
+                margin-top: 70px;
+                color: #FFF;
+                font-size: 26px;
+                font-weight: 700;
+            }
+            &-btn {
+                display: flex;
+                width: 284px;
+                height: 47px;
+                padding: 10px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border: 1px solid #fff;
+                background: none;
+
+                color: #FFF;
+                font-size: 22px;
+                font-weight: 600;
+                text-transform: uppercase;
+                &:hover {
+                    background-color: #861620;
+                }
+                &:active {
+                    background-color: #29070A;
+                }
+            }
+        }
+        &_language {
+            display: flex;
+            flex-direction: column;
+            &-title {
+                color: #FFF;
+                font-size: 26px;
+                font-weight: 700;
+                margin-top: -55px;
+            }
+            &-choice {
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+            &-doc {
+                margin-top: 75px;
+                color: #FFF;
+                font-size: 26px;
+                font-weight: 700;
+            }
+            &-police {
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+                a {
+                    text-decoration: none;
+                    color: #fff; 
+                }
+            }
+        }
+
+
 
         @media (max-width: 768px) {
             padding: 30px 0 20px;
@@ -111,13 +186,6 @@
         letter-spacing: 0.001em;
         margin-bottom: 20px;
     }
-
-    &__social {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 215px;
-    }
-
     &__social-link {
         display: block;
         position: relative;
