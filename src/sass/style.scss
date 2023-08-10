@@ -9,11 +9,13 @@
 }
 
 .container {
-    width: 1140px;
+    width: 1800px;
     margin: 0 auto;
 }
 
 @import 'blocks/header';
+@import 'blocks/sidepanel';
+@import 'blocks/ticker';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
 @import 'blocks/gallery';
