@@ -1,0 +1,30 @@
+.about {
+    background-color: #BC1E2D;
+    height: 615px;
+    margin-top: 90px;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        &_image {
+            margin-top: 50px;
+            img {
+                width: 355px;
+            }
+        }
+        &_descr {
+            width: 455px;
+            &-title {
+                color: #FFF;
+                font-size: 90px;
+                font-weight: 700;
+                margin-top: 80px;
+            }
+            &-subtitle {
+                color: #FFF;
+                text-align: justify;
+                font-size: 22px;
+                font-weight: 400;
+            }
+        }
+    }
+}
