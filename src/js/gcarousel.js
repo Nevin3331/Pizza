@@ -1,26 +1,27 @@
-const backButtonSecond = document.querySelector(".gallery__head_press_button-back");
-const allowButtonSecond = document.querySelector(".gallery__head_press_button-allow");
-const imageLineSecond = document.querySelector(".gallery__image_line");
-const imageWidthSecond = document.querySelector(".gallery__image_line-img").offsetWidth + 20; // Ширина одной картинки
-
-let currentIndex = 0;
-const numImages = imageLineSecond.querySelectorAll(".gallery__image_line-img").length;
-const numVisibleImages = 2; // Количество одновременно видимых изображений
-
-function showImage(index) {
-    imageLineSecond.style.transform = `translateX(-${index * imageWidthSecond}px)`;
-}
-
-backButtonSecond.addEventListener("click", () => {
-    currentIndex = (currentIndex - 1 + numImages) % numImages;
-    showImage(currentIndex);
+$('.gallery__picture').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    arrows: true
+});
+$(".prev-btn").click(function () {
+    $(".gallery__picture").slick("slickPrev");
 });
 
-allowButtonSecond.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % numImages;
-    showImage(currentIndex);
+$(".next-btn").click(function () {
+    $(".gallery__picture").slick("slickNext");
 });
-
-// Показать первые две картинки при загрузке страницы
-showImage(currentIndex);
-
+$(".prev-btn").addClass("slick-disabled");
+$(".gallery__picture").on("afterChange", function () {
+    if ($(".slick-prev").hasClass("slick-disabled")) {
+        $(".prev-btn").addClass("slick-disabled");
+    } else {
+        $(".prev-btn").removeClass("slick-disabled");
+    }
+    if ($(".slick-next").hasClass("slick-disabled")) {
+        $(".next-btn").addClass("slick-disabled");
+    } else {
+        $(".next-btn").removeClass("slick-disabled");
+    }
+});

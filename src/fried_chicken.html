@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="../dist/style.css">
 
 
-    <title>Vlavashe</title>
+    <title>Fried Chicken</title>
 </head>
 <body>
-<section id="chicken_header" class="header">
+
+<section id="header" class="header">
     <div class="container">
         <div class="header_block">
             <nav class="header__sidebar">
@@ -28,23 +29,23 @@
 
                 <div class="header__navbar">
                     <ul class="header__navbar_item">
-                        <li class="header__navbar_item-list"><a href="#header">VLAVASHE &blacktriangledown;</a>
-                            <ul class="header__navbar_subitem">
-                                <li class="header__navbar_subitem-sublist"><a href="#about">About us</a></li>
-                                <li class="header__navbar_subitem-sublist"><a href="#special_deals">Special deals</a></li>
-                                <li class="header__navbar_subitem-sublist"><a href="#menu">Menu</a></li>
-                                <li class="header__navbar_subitem-sublist"><a href="#gallery">Gallery</a></li>
-                                <li class="header__navbar_subitem-sublist"><a href="#address">Address</a></li>
-                                <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
-                            </ul>
-                        </li>
-                        <li class="header__navbar_item-list"><a href="#chicken_header">Fried chicken &blacktriangledown;</a>
+                        <li class="header__navbar_item-list"><a href="vlavashe.html">VLAVASHE &blacktriangledown;</a>
                             <ul class="header__navbar_subitem">
                                 <li class="header__navbar_subitem-sublist"><a href="#">About us</a></li>
                                 <li class="header__navbar_subitem-sublist"><a href="#">Special deals</a></li>
                                 <li class="header__navbar_subitem-sublist"><a href="#">Menu</a></li>
                                 <li class="header__navbar_subitem-sublist"><a href="#">Gallery</a></li>
                                 <li class="header__navbar_subitem-sublist"><a href="#">Address</a></li>
+                                <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar_item-list"><a href="fried_chicken.html">Fried chicken &blacktriangledown;</a>
+                            <ul class="header__navbar_subitem">
+                                <li class="header__navbar_subitem-sublist"><a href="#chicken about">About us</a></li>
+                                <li class="header__navbar_subitem-sublist"><a href="#chicken deals">Special deals</a></li>
+                                <li class="header__navbar_subitem-sublist"><a href="#chicken menu">Menu</a></li>
+                                <li class="header__navbar_subitem-sublist"><a href="#chicken gallery">Gallery</a></li>
+                                <li class="header__navbar_subitem-sublist"><a href="#chicken address">Address</a></li>
                                 <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
                             </ul>
                         </li>
@@ -159,47 +160,50 @@
       </div>
 </section>
 
-<section id="special_deals" class="carousel">
+<section id="chicken deals" class="special-deals">
     <div class="container">
-        <div class="carousel__head">
-            <div class="carousel__head_title">
-                Special deals
-            </div>
-            <div class="carousel__head_push">
-                <div class="carousel__head__push_more">
-                    See more
-                </div>
-                <div class="carousel__head_push_button">
-                    <button class="carousel__head_push_button-prev">
+        <div class="special-deals_head">
+            <h3 class="special-deals_head-title">Special deals</h3>
+            
+            <div class="special-deals_head_subhead">
+                <h3 class="special-deals_head_subhead-more">See more</h3>
+                <div class="btn-wrap">
+                    <button class="prev-btn">
                         <svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 2L3 18L19 34" stroke="white" stroke-width="4"/>
-                        </svg>
+                            <path d="M19 2L3 18L19 34" stroke="white" stroke-width="4"/>
+                        </svg>                            
                     </button>
-                    <button class="carousel__head_push_button-next">
+                    <button class="next-btn">
                         <svg width="21" height="36" viewBox="0 0 21 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 2L18 18L2 34" stroke="white" stroke-width="4"/>
+                            <path d="M2 2L18 18L2 34" stroke="white" stroke-width="4"/>
                         </svg>
                     </button>
                 </div>
             </div>
         </div>
-        <div class="carousel__image">
-            <div class="carousel__image_line">
-                <img class="carousel__image_line-img" src="icons/special_photo/promo.png" alt="№1">
-                <img class="carousel__image_line-img" src="icons/special_photo/promo2.png" alt="№4">
-                <img class="carousel__image_line-img" src="icons/special_photo/promo.png" alt="№1">
-                <img class="carousel__image_line-img" src="icons/special_photo/promo2.png" alt="№4">
-                <img class="carousel__image_line-img" src="icons/special_photo/promo.png" alt="№1">
-                <img class="carousel__image_line-img" src="icons/special_photo/promo2.png" alt="№4">
+
+        <div class="special_carousel">
+            <div class="item">
+                <img src="icons/special_photo/promo.png">
+            </div>
+            <div class="item">
+                <img src="icons/special_photo/promo.png">
+            </div>
+            <div class="item">
+                <img src="icons/special_photo/promo.png">
+            </div>
+            <div class="item">
+                <img src="icons/special_photo/promo.png">
             </div>
         </div>
+
     </div>
 </section>
 
-<section id="menu" class="catalog"  style="background-image: url(img/bg_menu.png);">
+<section id="chicken menu" class="catalog"  style="background-image: url(img/bg_menu.png);">
     <div class="container">
         <h2 class="catalog__title">
-            Fried Chicken Menu
+            VLAVASHE Menu
         </h2>
         <div class="catalog__content">
             <div class="catalog__content-item">
@@ -266,317 +270,9 @@
                 </div>
                 <button class="catalog__footer-button">To order</button>
             </div>
-            </div>
+        </div>
 
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-                <div class="catalog__content-item-wrapper">          
-                    <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                    <div class="catalog__content-item-wrapper-info">
-                        <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                        <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                        <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                    </div>
-                </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-                <div class="catalog__footer-descr">
-                    <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                    </div>
-                </div>
-                <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
+        <div class="catalog__content-item">
             <div class="catalog__content-item-wrapper">          
                 <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
 
@@ -587,65 +283,21 @@
                 </div>
             </div>
 
-            <hr>
+        <hr>
 
-            <div class="catalog__footer">
+        <div class="catalog__footer">
             <div class="catalog__footer-descr">
                 <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
                 </div>
             </div>
             <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-            <div class="catalog__content-item-wrapper">          
-                <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                <div class="catalog__content-item-wrapper-info">
-                    <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                    <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                    <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-            <div class="catalog__footer-descr">
-                <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                </div>
-            </div>
-            <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
-
-            <div class="catalog__content-item">
-            <div class="catalog__content-item-wrapper">          
-                <div class="catalog__content-item-wrapper-subtitle">Shawarma #1</div>
-
-                <div class="catalog__content-item-wrapper-info">
-                    <div class="catalog__content-item-wrapper-info-weight">300 gr</div>
-                    <img src="../src/icons/shavarma/image.png" alt="..." class="catalog__content-item-wrapper-img">
-                    <div class="catalog__content-item-wrapper-info-ilprice">10₪</div>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="catalog__footer">
-            <div class="catalog__footer-descr">
-                <div class="catalog__footer-descr-info">Lorem ipsum dolor sit amet consectetur. Quis mauris fusce leo ut egestas eu
-                </div>
-            </div>
-            <button class="catalog__footer-button">To order</button>
-            </div>
-            </div>
+        </div>
+        </div>
         </div>
     </div>
 </section>
 
-<section id="gallery" class="gallery">
+<section id="chicken gallery" class="gallery">
     <div class="container">
         <div class="gallery__head">
             <div class="gallery__head_title">
@@ -682,7 +334,7 @@
     </div>
 </section>
 
-<section id="address" class="addres">
+<section id="chicken address" class="addres">
     <div class="container">
         <div class="addres__item">
             <div class="addres__item_descr">
@@ -704,7 +356,7 @@
     </div>
 </section>
 
-<section id="about" class="about">
+<section id="chicken about" class="about">
     <div class="container">
         <div class="about__item">
             <div class="about__item_image">
@@ -1005,19 +657,10 @@
     </div>
 </section>
 
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
@@ -1025,6 +668,13 @@
     <script src="js/gcarousel2.js"></script>
     <script src="js/slick.js"></script>
 
-    <script src="js/special_carousel.js"></script>
+    <script>
+        $('.special_carousel').slick({
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: false
+        });
+    </script>
 </body>
 </html>

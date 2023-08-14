@@ -10,6 +10,7 @@
             justify-content: space-between;
             margin-top: 51px;
             width: 600px;
+            height: 28px;
             list-style-type: none;
             font-weight: 400;
             font-size: 15px;
@@ -39,6 +40,7 @@
             list-style-type: none;
             background: #fff;
             display: none;
+            text-align: left;
             &-sublist {
                 width: 100%;
             }
