@@ -13,12 +13,12 @@
     &__content {
         margin-top: 60px;
         display: grid;
-        grid-template-columns: repeat(4, 474px);
+        grid-template-columns: repeat(4, 450px);
         justify-content: center;
         align-items: center;
         justify-items: start;
         &-item {
-            width: 435px;
+            width: 430px;
             height: 770px;
             border: 2px solid #e8e8e8;
             overflow: hidden;

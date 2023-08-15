@@ -429,7 +429,7 @@
 .catalog__content {
   margin-top: 60px;
   display: grid;
-  grid-template-columns: repeat(4, 474px);
+  grid-template-columns: repeat(4, 450px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -439,7 +439,7 @@
   justify-items: start;
 }
 .catalog__content-item {
-  width: 435px;
+  width: 430px;
   height: 770px;
   border: 2px solid #e8e8e8;
   overflow: hidden;
