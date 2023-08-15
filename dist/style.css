@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 95%;
   margin: 0 auto;
 }
 
@@ -306,12 +306,6 @@
   width: 3px;
   height: 200px;
   background-color: #fff;
-}
-.sidepanel__link {
-  width: 30px;
-  height: 30px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
 }
 
 @-webkit-keyframes ticker {
