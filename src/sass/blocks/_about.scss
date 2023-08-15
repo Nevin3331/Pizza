@@ -13,11 +13,14 @@
         }
         &_descr {
             width: 455px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
             &-title {
                 color: #FFF;
                 font-size: 90px;
                 font-weight: 700;
-                margin-top: 80px;
             }
             &-subtitle {
                 color: #FFF;

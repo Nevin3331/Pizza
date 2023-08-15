@@ -1,33 +1,21 @@
 .sidepanel {
-    margin-top: 300px;
     display: flex;
-    top: 188px;
-    left: -35px;
-    height: 300px;
+    align-items: center;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    top: 188px;
+    left: -35px;
+    height: 687px;
     z-index: 1;
-
     &__divider {
-        width: 2px;
-        height: 70px;
+        width: 3px;
+        height: 200px;
         background-color: #fff;
-        margin-bottom: 10px;
     }
-
-    &__text {
-        margin-top: 50px;
-        height: 20px;
-        width: 150px;
-        font-weight: 700;
-        font-size: 16px;
-        color: grey;
-        span {
-            display: block;
-            transform: rotate(-90deg) translate(10px);
-            width: 150px;
-        }
+    &__link {
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
     }
-
 }

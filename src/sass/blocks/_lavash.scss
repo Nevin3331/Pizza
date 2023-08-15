@@ -1,0 +1,83 @@
+.lavash {
+    position: relative;
+    min-height: 893px;
+    width: 100%;
+    background: #BC1E2D;
+    display: flex;
+    align-items: center;
+    &__descr{
+        display: flex;
+        align-items: end;
+        flex-wrap: wrap;
+        &-title {
+            color: #FFF;
+            font-size: 88px;
+            font-weight: 700;
+        }
+        &-btn {
+            display: flex;
+            height: 52px;
+            width: 212px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border: 2px solid #FFF;
+            background: #BC1E2D;
+            
+            color: #FFF;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:hover {
+                background-color: #861620;
+            }
+            &:active {
+                background-color: #29070A;
+            }
+        }
+    }
+    &__image {
+        display: flex;
+        align-items: flex-end;
+        &-img {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 781px;
+            display: flex;
+            transform: translateY(-50%);
+            align-items: center;
+        }
+        &_button {
+            display: flex;
+            justify-content: space-between;
+            &-btn {
+                z-index: 999;
+                display: flex;
+                height: 52px;
+                width: 255px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                background: none;
+                color: #FFF;
+                border: 1px solid #FFF;
+
+                color: #FFF;
+                font-size: 22px;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-right: 15px;
+                &:last-child {
+                    margin: 0;
+                }
+                &:hover {
+                    background-color: #861620;
+                }
+                &:active {
+                    background-color: #29070A;
+                }
+            }
+        }
+    }
+}
