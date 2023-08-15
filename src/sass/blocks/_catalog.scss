@@ -12,28 +12,26 @@
     }
     &__content {
         margin-top: 60px;
-        display: grid;
-        grid-template-columns: repeat(4, 450px);
         justify-content: center;
         align-items: center;
         justify-items: start;
         &-item {
-            width: 430px;
-            height: 770px;
+            height: 745px;
             border: 2px solid #e8e8e8;
             overflow: hidden;
             margin-bottom: 20px;
             background-color: #fff;
             &-wrapper {
                 padding: 20px;
+                height: 585px;
                 &-subtitle {
                     color: #000;
                     font-size: 46px;
                     font-weight: 700;
                 }
                 &-img {
-                    width: 280px;
-                    margin-left: 37px;
+                    width: 85%;
+                    margin: 0 auto;
                 }
                 &-info {
                     display: flex;
@@ -55,9 +53,9 @@
         }
     }
     &__footer {
-        padding: 20px;
-        height: 100%;
+        padding: 10px;
         background-color: #FFFBF2;
+        height: 165px;
         &-descr {
             &-info {
                 color: #000;
@@ -67,7 +65,7 @@
         }
         &-button {
             display: flex;
-            width: 387px;
+            width: 100%;
             height: 57px;
             padding: 10px;
             justify-content: center;

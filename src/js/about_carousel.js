@@ -1,7 +1,8 @@
 $('.feedback_photo').slick({
-  slidesToShow: 2,
-  slidesToScroll: 2,
-  autoplay: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  rows: 2,
+  autoplay: false,
   dots: false,
   arrows: false,
   autoplay: true,
