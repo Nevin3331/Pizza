@@ -577,38 +577,41 @@
 }
 .addres__item {
   display: grid;
-  grid-template-columns: repeat(2, 348px 767px);
+  grid-template-columns: 592px 1193px;
   gap: 15px;
 }
 .addres__item_descr {
   border: 1px solid;
-  height: 400px;
+  height: 600px;
   background-color: #BC1E2D;
   padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .addres__item_descr-title {
-  color: #fff;
-  font-size: 45px;
+  color: #FFF;
+  font-size: 90px;
   font-weight: 700;
-  margin-top: 10px;
 }
 .addres__item_descr-subtitle {
-  color: #fff;
-  font-size: 15px;
+  color: #FFF;
+  font-size: 22px;
   font-weight: 400;
-  width: 275px;
-  margin-top: 35px;
 }
 .addres__item_descr-hour {
-  color: #fff;
-  font-size: 17px;
+  color: #FFF;
+  font-size: 22px;
   font-weight: 400;
-  margin-top: 15px;
 }
 .addres__item_map {
   border: 1px solid;
-  width: 940px;
-  height: 400px;
+  height: 600px;
 }
 .addres__item_map iframe {
   width: 100%;
