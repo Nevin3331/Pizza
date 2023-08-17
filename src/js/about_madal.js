@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeModalButton = document.querySelector(".modal__close");
   
     openModalButton.addEventListener("click", () => {
-      modalContainer.style.display = "block"; // Показываем модальное окно
+      modalContainer.style.display = "block";
     });
   
     closeModalButton.addEventListener("click", () => {
-      modalContainer.style.display = "none"; // Скрываем модальное окно
+      modalContainer.style.display = "none";
     });
   });
   

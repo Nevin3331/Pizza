@@ -5,7 +5,6 @@ $('.feedback_photo').slick({
   autoplay: false,
   dots: false,
   arrows: false,
-  autoplay: true,
   dots: true,
   appendArrows: $('.slick-slider-nav'),
   appendDots: $('.slick-slider-dots'),

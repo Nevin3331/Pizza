@@ -1,6 +1,6 @@
 .footer {
     background: #BC1E2D;
-
+    margin-top: 215px;
     &__inner {
         color: #fff;
         display: flex;
@@ -45,7 +45,7 @@
     }
 
     &__item-title {
-        font-size: 20px;
+        font-size: 26px;
         font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.005em;
@@ -57,8 +57,7 @@
     }
 
     &__item-text {
-        font-size: 13px;
-        font-weight: 400;
+        font-size: 20px;
         letter-spacing: 0.005em;
         margin-bottom: 12px;
         position: relative;

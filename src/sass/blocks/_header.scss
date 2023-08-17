@@ -1,6 +1,6 @@
 .header {
     position: relative;
-    min-height: 130px;
+    max-height: 130px;
     .container {
         display: flex;
         justify-content: space-between;
@@ -16,10 +16,11 @@
     &__navbar {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         &_item {
             display: flex;
             justify-content: space-between;
-            margin-top: 51px;
+            align-items: center;
             width: 750px;
             height: 28px;
             list-style-type: none;
@@ -28,19 +29,19 @@
             &-list {
                 font-weight: 400;
                 font-size: 22px;
-                line-height: 28px;
                 text-align: center;
                 &:hover > ul{
                     display: initial;
                     transition: all 5s;
+                    color: #BC1E2D;
                 }
+
                 a {
                     color: #000000;
                     text-decoration: none;
                     &:hover {
                         transition: all 0.5s;
-                        background: #000;
-                        color:#fff;
+                        color: #BC1E2D;     
                     }
                 }
             }
@@ -51,8 +52,11 @@
             background: #fff;
             display: none;
             text-align: left;
+
             &-sublist {
                 width: 100%;
+                margin-top: 15px;
+                border-bottom: 1px solid #000;
             }
         }
     }
@@ -83,8 +87,7 @@
                     text-decoration: none;
                     &:hover {
                         transition: all 0.5s;
-                        background: #000;
-                        color:#fff;
+                        color: #BC1E2D;
                     }
                 }
             }
@@ -100,14 +103,17 @@
             }
         }
         &-btn {
+            color: #FFF;
             width: 130px;
             height: 47px;
             background: #BC1E2D;
             border: none;
 
-            color: #FFF;
+            font-family: Inter;
             font-size: 22px;
+            font-style: normal;
             font-weight: 600;
+            line-height: normal;
             text-transform: uppercase;
             &:hover {
                 background-color: #861620;

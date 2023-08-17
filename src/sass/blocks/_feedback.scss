@@ -13,7 +13,6 @@
   &-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
     align-items: center;
   }
   &_photo {
@@ -27,7 +26,8 @@
   }
   &-descr {
     display: flex;
-    margin-top: 10px;
+    margin-top: 19px;
+    align-items: center;
     &-round {
       display: flex;
       justify-content: center;
@@ -42,15 +42,21 @@
       }
     }
     &-subtitle {
-        color: #000;
-        font-size: 18px;
-        font-weight: 400;
+      color: #000;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
       }
   }
     &-text {
       color: #000;
+      font-family: Inter;
       font-size: 18px;
+      font-style: normal;
       font-weight: 400;
+      line-height: normal;
       margin: 20px 10px 10px 10px;
     }
   }
@@ -85,6 +91,12 @@
       font-size: 22px;
       font-weight: 600;
       text-transform: uppercase;
+      &:hover {
+        background-color: #861620;
+      }
+      &:active {
+        background-color: #29070A;
+      }
     }
   }
   .btn-wrap {
@@ -104,6 +116,13 @@
       width: 13px;
     }
   }
+}
+
+.feedback .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .rating {
@@ -245,23 +264,27 @@
   display: flex;
   flex-direction: column;
   width: 552px;
-  height: 345px;
+  height: 375px;
   justify-content: space-between;
   margin: 0 auto;
 }
 .modal__name, .modal__phone {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   background: none;
   padding: 15px;
+  color: #fff;
+  font-size: 22px;
 }
 .modal__email {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   background: none;
   height: 140px;
   padding: 15px;
+  font-size: 22px;
+  color: #FFF;
 }
 .modal__button {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   background: none;
   padding: 15px;
 
@@ -269,4 +292,11 @@
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
+  &:hover {
+    background-color: #861620;
+  }
+  &:active {
+    background-color: #29070A;
+  }
 }
+

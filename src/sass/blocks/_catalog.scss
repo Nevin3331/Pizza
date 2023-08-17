@@ -1,5 +1,5 @@
 .catalog {
-    min-height: 500px;
+    height: 1300px;
     margin-top: 130px;
     padding-top: 120px;
     hr {
@@ -25,6 +25,8 @@
                 padding: 20px;
                 height: 585px;
                 &-subtitle {
+                    display: flex;
+                    justify-content: space-between;
                     color: #000;
                     font-size: 46px;
                     font-weight: 700;
@@ -44,9 +46,13 @@
                         font-weight: 500;
                     }
                     &-ilprice {
-                        color: #000;
-                        font-size: 36px;
-                        font-weight: 700;
+                        display: flex;
+                        justify-content: space-between;
+                        &-cost {
+                            color: #000;
+                            font-size: 28px;
+                            font-weight: 700;
+                        }
                     }
                 }
             }
