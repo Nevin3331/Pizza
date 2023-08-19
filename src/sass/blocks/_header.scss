@@ -27,9 +27,12 @@
             font-weight: 400;
             font-size: 15px;
             &-list {
-                font-weight: 400;
+                color: #000;
+                font-family: Inter;
                 font-size: 22px;
-                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
                 &:hover > ul{
                     display: initial;
                     transition: all 5s;
