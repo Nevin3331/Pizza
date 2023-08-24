@@ -33,3 +33,47 @@
     display: flex;
     justify-content: space-between;
 }
+
+.about {
+    height: 1066px;
+    margin-top: 260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    &_laptop {
+        &__image {
+            img {
+                width: 100%;
+            }
+        }
+        &__descr {
+            width: 455px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            &-title {
+                color: #FFF;
+                font-family: Oswald;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            &-subtitle {
+                color: #FFF;
+                text-align: justify;
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}
+.about_laptop .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
