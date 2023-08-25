@@ -24,18 +24,106 @@
 <body>
 
     <header class="header">
+        <div class="menu_laptop">
+
+            <img class="menu_close" src="icons/close_menu.svg" alt="#">
+
+            <div class="language">
+                <a href="#">EN</a>
+                <a href="#">RU</a>
+                <a href="#">היונית</a>
+            </div>
+
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#" class="menu_link">
+                        VLAVASHE
+                    </a>
+                    <img class="header__navbar_item-list-arrow" src="icons/dropdown_menu.svg" alt="icon">
+
+                    <ul class="header__navbar_subitem">
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash deals">Special deals</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash menu">Menu</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash gallery">Gallery</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash address">Address</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash about">About us</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a href="#" class="menu_link">
+                        FRIED CHICKEN
+                    </a>
+                    <img class="header__navbar_item-list-arrow" src="icons/dropdown_menu.svg" alt="icon">
+
+                    <ul class="header__navbar_subitem">
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash deals">Special deals</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash menu">Menu</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash gallery">Gallery</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash address">Address</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash about">About us</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a href="#" class="menu_link">
+                        MANCI BURGER
+                    </a>
+                    <img class="header__navbar_item-list-arrow" src="icons/dropdown_menu.svg" alt="icon">
+
+                    <ul class="header__navbar_subitem">
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash deals">Special deals</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash menu">Menu</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash gallery">Gallery</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash address">Address</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash about">About us</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
+                    </ul>
+                </li>
+                <li class="menu_item">
+                    <a href="#" class="menu_link">
+                        PIZZA PEPPERONI
+                    </a>
+                    <img class="header__navbar_item-list-arrow" src="icons/dropdown_menu.svg" alt="icon">
+
+                    <ul class="header__navbar_subitem">
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash deals">Special deals</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash menu">Menu</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash gallery">Gallery</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash address">Address</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#lavash about">About us</a></li>
+                        <li class="header__navbar_subitem-sublist"><a href="#">Reviews</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <button class="menu_btn">
+                To order
+            </button>
+
+            <div class="menu_social">
+                <a href="#" class="menu__icon">
+                    <img src="icons/sociale/mdi_instagram.svg" alt="instagram">
+                </a>
+                <a href="#" class="menu__icon">
+                    <img src="icons/sociale/ic_baseline-facebook.svg" alt="facebook">
+                </a>
+                <a href="#" class="menu__icon">
+                    <img src="icons/sociale/ic_baseline-tiktok.svg" alt="tiktok">
+                </a>
+            </div>
+
+        </div>
         <div class="container">
-            <!-- <div class="hamburger">
-                <span></span>
-                <span class="long"></span>
-                <span></span>
-            </div> -->
+            <div class="hamburger">
+                <img src="icons/burger.svg" alt="burger">
+            </div>
             <a href="#" class="header__logo">
                 <img class="header__logo-image" src="img/zyro-image.png" alt="main_logo">
             </a>
 
 
-            <div class="header__navbar">
+            <div class="header__navbar" style="display: none;">
                 <ul class="header__navbar_item">
                     <li class="header__navbar_item-list">
                         <a href="vlavashe.html">
@@ -104,7 +192,7 @@
                 </ul>
             </div>
 
-            <div class="header__social">
+            <div class="header__social" style="display: none;">
                 <ul class="header__social_item">
                     <li class="header__social_item-list">
                         <a href="#">
@@ -523,7 +611,7 @@
         </div>
     </section>
 
-    <section class="feedback">
+    <section class="feedback" style="display: none;">
         <div class="container">
             <div class="row">
                 <div class="feedback-about col-md-6">
@@ -763,7 +851,7 @@
                 </div>
             </div>
 
-            <div class="footer__info">
+            <div class="footer__info" style="display: none;">
                 <div class="footer__info_social">
                     <div class="footer__info_social-title">Social Media</div>
                     <div class="footer__info_social-image">
@@ -784,7 +872,7 @@
                 </div>
             </div>
 
-            <div class="footer__info_language">
+            <div class="footer__info_language" style="display: none;">
                 <div class="footer__info_language-title">Language</div>
 
                 <div class="footer__info_language-choice">
@@ -802,6 +890,48 @@
                     <a href="#">Cookies Policy</a>
                 </div>
             </div>
+
+            <div class="footer__laptop">
+                <div class="footer__info">
+                    <div class="footer__info_social">
+                        <div class="footer__info_social-title">Social Media</div>
+                        <div class="footer__info_social-image">
+                            <a href="#">
+                                <img src="icons/sociale/mdi_instagram.svg" alt="instagram">
+                            </a>
+                            <a href="#">
+                                <img src="icons/sociale/ic_baseline-facebook.svg" alt="facebook">
+                            </a>
+                            <a href="#">
+                                <img src="icons/sociale/ic_baseline-tiktok.svg" alt="tiktok">
+                            </a>
+                        </div>
+                        <div class="footer__info_social-subtitle"><a href="#">To get order</a></div>
+                        <button class="footer__info_social-btn">
+                            order
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__info_language">
+                    <div class="footer__info_language-title">Language</div>
+
+                    <div class="footer__info_language-choice">
+                        <a href="#">En</a>
+                        <a href="#">Ru</a>
+                        <a href="#">היונית</a>
+                    </div>
+
+                    <div class="footer__info_language-doc">
+                        Documentation
+                    </div>
+
+                    <div class="footer__info_language-police">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies Policy</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -817,8 +947,7 @@
     <script src="js/special_carousel.js"></script>
     <script src="js/about_carousel.js"></script>
     <script src="js/about_madal.js"></script>
-
-
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
