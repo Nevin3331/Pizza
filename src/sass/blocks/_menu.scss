@@ -3,7 +3,7 @@
     padding: 78px 40px 40px 40px;
     z-index: 999;
     background-color: #BC1E2D;
-    width: 798px;
+    width: 768px;
     height: 1000px;
     right: -100%;
     transition: right 0.3s ease;
@@ -53,6 +53,12 @@
     border: 2px solid #FFF;
     background-color: #BC1E2D;
     color: #FFF;
+    &:hover {
+        background-color: #861620;
+    }
+    &:active {
+        background-color: #29070A;
+    }
 }
 .menu_social {
     margin-top: 30px;

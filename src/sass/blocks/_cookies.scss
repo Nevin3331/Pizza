@@ -1,0 +1,60 @@
+.custom-modal {
+    position: fixed;
+    padding: 70px 50px 30px 50px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .modal-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .accept-button {
+    background-color: #BC1E2D;
+    display: flex;
+    width: 621px;
+    height: 52px;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border: none;
+  }
+  .modal-content .red {
+    color: #BC1E2D;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .dismiss-button {
+    display: flex;
+    width: 404px;
+    height: 52px;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 2px solid #BC1E2D;
+    background: #FFF;
+  }

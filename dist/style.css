@@ -182,7 +182,7 @@
   padding: 78px 40px 40px 40px;
   z-index: 999;
   background-color: #BC1E2D;
-  width: 798px;
+  width: 768px;
   height: 1000px;
   right: -100%;
   -webkit-transition: right 0.3s ease;
@@ -249,6 +249,12 @@
   border: 2px solid #FFF;
   background-color: #BC1E2D;
   color: #FFF;
+}
+.menu_btn:hover {
+  background-color: #861620;
+}
+.menu_btn:active {
+  background-color: #29070A;
 }
 
 .menu_social {
@@ -1635,4 +1641,86 @@
 }
 .footer__social-link:hover {
   scale: 1.1;
+}
+
+.custom-modal {
+  position: fixed;
+  padding: 70px 50px 30px 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modal-button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.accept-button {
+  background-color: #BC1E2D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 621px;
+  height: 52px;
+  padding: 10px 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: white;
+  border: none;
+}
+
+.modal-content .red {
+  color: #BC1E2D;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dismiss-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 404px;
+  height: 52px;
+  padding: 10px 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border: 2px solid #BC1E2D;
+  background: #FFF;
 }
