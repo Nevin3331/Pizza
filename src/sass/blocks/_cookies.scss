@@ -1,6 +1,6 @@
 .custom-modal {
     position: fixed;
-    padding: 70px 50px 30px 50px;
+    padding: 70px 100px 30px 100px;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -11,12 +11,14 @@
   }
   
   .modal-content {
-    color: #000;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    p {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
   }
   
   .modal-button {
@@ -41,7 +43,7 @@
   .modal-content .red {
     color: #BC1E2D;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
