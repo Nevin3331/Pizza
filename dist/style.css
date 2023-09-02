@@ -1724,3 +1724,16 @@
   border: 2px solid #BC1E2D;
   background: #FFF;
 }
+
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  left: 60px;
+  width: 57px;
+  height: 57px;
+}
+
+.pageup img {
+  width: 100%;
+}
